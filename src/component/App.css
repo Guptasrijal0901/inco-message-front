@@ -1,0 +1,84 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.messages {
+  margin-top: 20px;
+  text-align: left;
+}
+
+textarea {
+  width: 80%;
+  max-width: 500px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #61dafb;
+  color: black;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #21a1f1;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  background-color: #444;
+  margin: 5px 0;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+li p {
+  margin: 0;
+  padding: 0;
+}
+
+li div {
+  margin-top: 10px;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+li button {
+  background-color: #ff6347;
+  color: white;
+}
+
+li button:hover {
+  background-color: #ff4500;
+}
+
+li button:first-child {
+  background-color: #4caf50;
+}
+
+li button:first-child:hover {
+  background-color: #45a049;
+}
